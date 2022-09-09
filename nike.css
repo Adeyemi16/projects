@@ -1,0 +1,123 @@
+body {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    text-decoration-line: none;
+    gap: 5px;
+    text-decoration: none;
+}
+
+.search {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.searchbtn {
+    height: 40px;
+    border-radius: 46px;
+    border: none;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.rowA{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.fall {
+    display: flex;
+    flex-direction: column;
+    width: 95.1%;
+    padding-left: 5%;
+    height: 620px;
+}
+
+.fallpics {
+    background-image: url(img/volleyball.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+ 
+    bottom: 5%;
+    left: 5%;
+    background-size: 100% 100%
+}
+
+#pic{
+    background-image: url(img/freshfleece.jpg);
+    height: 100%; 
+    width: 50%;
+    background-repeat: no-repeat;
+ 
+    bottom: 5%;
+    left: 5%;
+    background-size: 100% 100%
+    
+}
+#pic1{
+    background-image: url(img/volleyball.jpg);
+    width: 50%;
+}
+#pic-btn{
+    border-radius: 20px;
+    width: 80px;
+}
+#pic-btn2{
+    border-radius: 20px;
+    width: 100px;
+}
+#pic-p{
+    color: white;
+    margin-bottom: 20px;
+}
+.appiversary{
+    display: flex;
+   justify-content: center;
+   align-content: center;
+    color: black;
+    height: 300px;
+    text-align: center;
+    width: 95%;
+    background-image: url(img/appiversary.jpg);
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    bottom: 5%;
+    left: 5%;
+    background-size: 100% 100%
+}
+#invited{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+   justify-self: center;
+   align-items: center;
+   margin-top: 30px;
+}
+.nikexcercise{
+    width: 90%;
+    height: 620px;
+    margin-top: 5%;
+}
+.featured{
+    background-image: url(img/nikeexercise.jpg);
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    bottom: 5%;
+    left: 5%;
+    background-size: 100% 100%
+}
